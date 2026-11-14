@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food - Mazali va Tezkor Taomlar</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-burger"></i> FAST<span>FOOD</span>
+            </a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="#home">Bosh sahifa</a>
+                <a href="#about">Biz haqimizda</a>
+                <a href="#menu">Menyu</a>
+                <a href="#specials">Aksiyalar</a>
+                <a href="#reviews">Fikrlar</a>
+                <a href="#contact" class="btn-nav">Buyurtma berish</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <span class="badge">🔥 30 daqiqada yetkazib beramiz!</span>
+                <h1>Eng Mazali va Issiq <span>Fast Food</span> Taomlari</h1>
+                <p>Yangi uzilgan sabzavotlar, 100% halol va shirali go'sht hamda maxsus souslar uyg'unligi. Hoziroq buyurtma bering va haqiqiy ta'mdan bahramand bo'ling!</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">Menyuni ko'rish</a>
+                    <a href="#specials" class="btn btn-outline">Maxsus takliflar</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>15K+</h3>
+                        <p>Mamnun mijozlar</p>
+                    </div>
+                    <div class="stat">
+                        <h3>4.9 <i class="fa-solid fa-star"></i></h3>
+                        <p>O'rtacha reyting</p>
+                    </div>
+                    <div class="stat">
+                        <h3>30 min</h3>
+                        <p>Tezkor yetkazish</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" alt="Mazali Burger">
+                <div class="floating-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-solid fa-fire"></i>
+                    <div>
+                        <h4>Double Cheese</h4>
+                        <span>38,000 so'm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / About Section -->
+    <section id="about" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="sub-title">Nega aynan biz?</span>
+                <h2>Bizning Afzalliklarimiz</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box"><i class="fa-solid fa-leaf"></i></div>
+                    <h3>100% Tabiiy Mahsulotlar</h3>
+                    <p>Har kuni tongda keltiriladigan yangi sabzavotlar va sifatli go'sht mahsulotlaridan foydalanamiz.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box"><i class="fa-solid fa-motorcycle"></i></div>
+                    <h3>Tezkor Yetkazib Berish</h3>
+                    <p>Shahar bo'ylab 30 daqiqa ichida taomlaringizni issiq va yangi holatda eshigingizgacha yetkazamiz.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-box"><i class="fa-solid fa-award"></i></div>
+                    <h3>Maxsus Retseptlar</h3>
+                    <p>Bosh oshpazlarimiz tomonidan yaratilgan betakror souslar va ziravorlar taomga o'zgacha lazzat beradi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Owl Carousel Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="sub-title">Ommabop Taomlar</span>
+                <h2>Bizning Maxsus Menyu</h2>
+                <p>Eng ko'p buyurtma qilinadigan sevimli fast food taomlarimiz bilan tanishing</p>
+            </div>
+
+            <div class="owl-carousel owl-theme menu-carousel" data-aos="fade-up" data-aos-delay="200">
+                <!-- Item 1 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <span class="tag">Xit savdo</span>
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80" alt="Classic Cheeseburger">
+                    </div>
+                    <div class="menu-info">
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+                        <h3>Classic Cheeseburger</h3>
+                        <p>Mol go'shtli kotlet, eritilgan cheddar pishlog'i, tuzlangan bodring va maxsus sous.</p>
+                        <div class="menu-footer">
+                            <span class="price">32,000 so'm</span>
+                            <a href="#contact" class="order-btn"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <span class="tag new">Yangi</span>
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80" alt="Pepperoni Pizza">
+                    </div>
+                    <div class="menu-info">
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.8</div>
+                        <h3>Pepperoni Pizza (33 sm)</h3>
+                        <p>Yupqa xamir, motsarella pishlog'i, dudlangan kolbasa va italyan tomat sousi.</p>
+                        <div class="menu-footer">
+                            <span class="price">65,000 so'm</span>
+                            <a href="#contact" class="order-btn"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80" alt="Tovuqli Lavash">
+                    </div>
+                    <div class="menu-info">
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+                        <h3>Maxsus Tovuqli Lavash</h3>
+                        <p>Qovurilgan tovuq filesi, qarsildoq chipslar, yangi pomidor va sarimsoqli sous.</p>
+                        <div class="menu-footer">
+                            <span class="price">28,000 so'm</span>
+                            <a href="#contact" class="order-btn"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=600&q=80" alt="Kartoshka Fri">
+                    </div>
+                    <div class="menu-info">
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.7</div>
+                        <h3>Qarsildoq Kartoshka Fri</h3>
+                        <p>Oltin rangda qovurilgan saralangan kartoshka bo'laklari va pishloqli sous.</p>
+                        <div class="menu-footer">
+                            <span class="price">16,000 so'm</span>
+                            <a href="#contact" class="order-btn"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <span class="tag">Achchiq</span>
+                        <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80" alt="KFC Qanotchalar">
+                    </div>
+                    <div class="menu-info">
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+                        <h3>Qarsildoq Tovuq Qanotchalari</h3>
+                        <p>Maxsus panirovkada qovurilgan 8 dona shirador va achchiq tovuq qanotchalari.</p>
+                        <div class="menu-footer">
+                            <span class="price">35,000 so'm</span>
+                            <a href="#contact" class="order-btn"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Combo / Special Offer Banner -->
+    <section id="specials" class="promo-banner">
+        <div class="container promo-container">
+            <div class="promo-text" data-aos="fade-right">
+                <span class="promo-badge">Chegirma -25%</span>
+                <h2>Super Kombo Set: Burger + Fri + Cola</h2>
+                <p>Do'stlaringiz yoki oilangiz bilan mazali tushlik qiling. Bugun buyurtma bersangiz, ichimlik mutlaqo bepul!</p>
+                <div class="promo-price">
+                    <span class="old-price">58,000 so'm</span>
+                    <span class="new-price">43,500 so'm</span>
+                </div>
+                <a href="#contact" class="btn btn-primary">Komboni buyurtma qilish</a>
+            </div>
+            <div class="promo-img" data-aos="fade-left">
+                <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=700&q=80" alt="Combo Set">
+            </div>
+        </div>
+    </section>
+
+    <!-- Owl Carousel Testimonials -->
+    <section id="reviews" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="sub-title">Mijozlar fikri</span>
+                <h2>Biz Haqimizda Nima Deyishadi?</h2>
+            </div>
+
+            <div class="owl-carousel owl-theme review-carousel" data-aos="fade-up" data-aos-delay="150">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Burgerlari juda shirali va issiq holda yetib keldi. Ayniqsa maxsus sousi menga juda yoqdi. Albatta yana buyurtma beraman!"</p>
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Mijoz">
+                        <div>
+                            <h4>Sardor Rahimov</h4>
+                            <span>Doimiy mijoz</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Yetkazib berish xizmati super! 25 daqiqada pitsa va fri eshigimiz tagida bo'ldi. Narxlari ham hamyonbop."</p>
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Mijoz">
+                        <div>
+                            <h4>Madina Karimova</h4>
+                            <span>Toshkent</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Tovuqli lavashi shahardagi eng zo'ri! Go'shti ko'p va yangi. Barcha do'stlarimga tavsiya qilaman."</p>
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Mijoz">
+                        <div>
+                            <h4>Jasur Alimov</h4>
+                            <span>Talaba</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Order Form Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <span class="sub-title">Aloqa</span>
+                <h2>Tezkor Buyurtma Qoldiring</h2>
+                <p>Ma'lumotlaringizni kiriting, operatorimiz 2 daqiqa ichida siz bilan bog'lanib buyurtmani tasdiqlaydi.</p>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Telefon raqam</h4>
+                        <p>+998 (90) 123-45-67</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Manzilimiz</h4>
+                        <p>Toshkent shahri, Amir Temur ko'chasi, 45-uy</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h4>Ish vaqti</h4>
+                        <p>Har kuni: 09:00 dan 02:00 gacha</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="order-form" data-aos="fade-left" action="#contact">
+                <h3>Buyurtma Shakli</h3>
+                <div class="form-group">
+                    <input type="text" placeholder="Ismingiz" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Telefon raqamingiz (+998...)" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="" disabled selected>Taomni tanlang</option>
+                        <option value="cheeseburger">Classic Cheeseburger - 32,000 so'm</option>
+                        <option value="pizza">Pepperoni Pizza - 65,000 so'm</option>
+                        <option value="lavash">Maxsus Tovuqli Lavash - 28,000 so'm</option>
+                        <option value="combo">Super Kombo Set - 43,500 so'm</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea rows="3" placeholder="Yetkazib berish manzili..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Buyurtmani Yuborish</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo"><i class="fa-solid fa-burger"></i> FAST<span>FOOD</span></a>
+                <p>Eng mazali va tezkor taomlar maskani. Sifat va tezlik — bizning bosh maqsadimiz.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Tezkor havolalar</h4>
+                <a href="#home">Bosh sahifa</a>
+                <a href="#about">Biz haqimizda</a>
+                <a href="#menu">Menyu</a>
+                <a href="#specials">Aksiyalar</a>
+            </div>
+            <div class="footer-social">
+                <h4>Ijtimoiy tarmoqlar</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fast Food. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (Owl Carousel uchun zarur kutubxona) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Kutubxonalarni ishga tushirish -->
+    <script>
+        AOS.init({
+            once: true,
+            offset: 80
+        });
+
+        $(document).ready(function(){
+            $('.menu-carousel').owlCarousel({
+                loop: true,
+                margin: 24,
+                nav: true,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 3500,
+                autoplayHoverPause: true,
+                navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+                responsive: {
+                    0: { items: 1 },
+                    600: { items: 2 },
+                    1000: { items: 3 }
+                }
+            });
+
+            $('.review-carousel').owlCarousel({
+                loop: true,
+                margin: 24,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 4500,
+                responsive: {
+                    0: { items: 1 },
+                    768: { items: 2 },
+                    1024: { items: 3 }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
